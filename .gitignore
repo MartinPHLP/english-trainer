@@ -1,0 +1,6 @@
+.env
+env
+whisper_output.json
+whisper.cpp
+__pycache__
+srcs/__pycache__
