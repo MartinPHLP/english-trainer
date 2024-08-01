@@ -1,6 +1,6 @@
-# English Trainer
+# english-trainer
 
-English Trainer is a virtual speaking practice tool that uses LLM, LangChain, and Whisper.cpp to provide an interactive language learning experience. Users can engage in conversations with AI, receive corrections, and improve their English speaking skills.
+english-trainer is a virtual speaking practice tool that uses LLM, LangChain, and Whisper.cpp to provide an interactive language learning experience. Users can engage in conversations with AI, receive corrections, and improve their English speaking skills.
 
 ## Features
 
