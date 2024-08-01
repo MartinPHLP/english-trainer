@@ -15,6 +15,7 @@ english-trainer is a virtual speaking practice tool that uses LLM, LangChain, an
 - Python 3.7+
 - Git
 - C++ compiler (for Whisper.cpp)
+- OpenAI API key
 
 ## Installation
 
