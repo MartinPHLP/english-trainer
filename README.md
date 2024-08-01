@@ -1,14 +1,18 @@
 # english-trainer
-
 english-trainer is a virtual speaking practice tool that uses LLM, LangChain, and Whisper.cpp to provide an interactive language learning experience. Users can engage in conversations with AI, receive corrections, and improve their English speaking skills.
 
 ## Features
-
 - Automatic or manual context selection for dialogues
 - Real-time speech recognition using Whisper.cpp
-- AI-powered conversation partner
+- AI-powered conversation partner using OpenAI's powerful language models
 - Instant feedback and corrections on user's speech
 - Simple keyboard controls for interaction
+- Fast and cost-effective local speech-to-text conversion
+
+## How It Works
+english-trainer leverages local speech-to-text conversion using Whisper.cpp to make the program much faster and more cost-effective. This local processing handles the speech recognition part of the application.
+
+For generating human-like responses and powering the conversational AI, the program utilizes OpenAI's powerful language models via their API. This combination allows for a responsive, intelligent, and natural-feeling conversation partner for language practice.
 
 ## Prerequisites
 
