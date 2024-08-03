@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage
 
 class ContextGenerator:
     def __init__(self):
-        self.llm_context = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=1.9)
+        self.llm_context = ChatOpenAI(model="gpt-4o-mini", temperature=1.9)
 
     def create_context(self):
         auto_context = input("Do you want an automatic context? (y/n): ").strip().lower()

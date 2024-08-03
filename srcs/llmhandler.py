@@ -8,7 +8,7 @@ from srcs.output_models import GenderClassifier, EnglishBinaryClassifier, Englis
 
 class LLMHandler:
     def __init__(self):
-        self.llm = ChatOpenAI(model="gpt-3.5-turbo-0125")
+        self.llm = ChatOpenAI(model="gpt-4o-mini")
         self.llm_corrector = ChatOpenAI(model="gpt-4o", temperature=0.3)
         self.setup_chains()
 
